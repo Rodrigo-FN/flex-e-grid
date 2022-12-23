@@ -5,6 +5,7 @@
     src: url(../font/icones.ttf);
 }
 
+
 body {
     background-color: #1D232A;
     font-family: 'Open Sans', 'icones', sans-serif;
@@ -22,10 +23,13 @@ body {
     display: flex;
     justify-content: space-between; /* <----  Move com os elementos na Horizontal*/
     align-items: center;   /* <----  Move os elementos na Vertical*/
+    width: 100%;
+    
     background-color: #15191C;
     padding: 8px 16px;
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    
 }
 
 .cabecalho__menu i::before {
@@ -112,11 +116,22 @@ body {
 }
 
 .principal {
+    display: grid;
     padding: 24px 16px;
+    gap: 16px;
+}
+
+.cartao--destaque {
+    margin-bottom: 16px;
 }
 
 .titulo-pagina {
     font-size: 1.5em;
+    font-weight: 700;
+}
+
+.titulo-secao {
+    font-size: 1.2em;
     font-weight: 700;
 }
 
@@ -129,8 +144,9 @@ body {
 
 .cartao__conteudo {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 1fr;
     padding: 16px;
+    gap: 8px;
  
 }
 
@@ -175,10 +191,11 @@ body {
     height: 40px;
     border-radius: 10px;
     font-size: .9em;
+    justify-self: end;
 }
 
 .cartao__botao--play::before {
-    content: \e90b;
+    content: '\e90b';
     font-size: 24px;
 }
 
@@ -190,3 +207,9 @@ body {
 .cartao__botao--destaque::before {
     margin-right: 8px;
 }
+
+.secao {
+    display: grid;
+    gap: 16px;
+}
+
