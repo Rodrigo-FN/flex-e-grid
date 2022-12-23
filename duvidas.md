@@ -44,3 +44,37 @@ A ideia de grid container é bem parecida com flex container, mas no grid contai
 
 # Mescla de linhas e colunas com as propriedades grid-columns: span n e grid-rows: span n;
 - É o conceito de “mescla de células”. Serve para dizer quantas colunas/linhas um elemento ocupa dentro do grid container.
+
+
+
+# As propriedades column-gap, row-gap e gap;
+- São as propriedades que dão espaçamento entre os grid items.
+
+
+
+# Como utilizar o valor auto para tamanho de colunas;
+- Nem sempre queremos colocar um valor fixo para as colunas/linhas. O valor auto permite que elas se adaptem de acordo com o conteúdo.
+
+
+
+# Planejar o uso de grid no desenvolvimento;
+- Uma técnica muito interessante é usar alguma ferramenta de desenho e esboçar possíveis linhas e colunas em cima do layout recebido.
+
+
+# Como evoluir o layout para desktop com grid;
+- Como fica o planejamento e criação das colunas e linhas da página quando existe um espaço horizontal maior em um dispositivo desktop.
+
+
+
+# A função repeat();
+- Quando precisamos criar muitas colunas com o mesmo tamanho, evitando repetição de código.
+
+
+
+# Alterar a posição de elementos com as propriedades grid-row e grid-column;
+- Antes usadas apenas para mesclar linhas e colunas, vimos que essas propriedades também controlam onde um elemento começa e termina dentro do grid container.
+
+
+
+# As vantagens e utilização de grid areas;
+- Grid areas vem com o propósito de facilitar a manutenção de código e a visibilidade dos elementos dentro do grid container.

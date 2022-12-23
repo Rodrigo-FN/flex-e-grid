@@ -41,6 +41,10 @@ body {
     width: 40px;
 }
 
+.cabecalho__perfil {
+    display: none;
+}
+
 .menu-lateral {
     display: flex;
     flex-direction: column;
@@ -145,6 +149,10 @@ body {
     gap: 8px;
 }
 
+.cartao__imagem--desktop {
+    display: none;
+}
+
 .cartao__destaque {
     grid-column: span 2;
 }
@@ -177,6 +185,10 @@ body {
     margin-right: 8px;    
 }
 
+.cartao__botao--compra::before {
+    content: '\e901';
+}  
+
 .cartao__botao {
     display: flex;
     justify-content: center;
@@ -203,7 +215,15 @@ body {
     margin-right: 8px;
 }
 
+.cartao--recentes {
+    display: none;
+}
+
+
 .secao {
     display: grid;
     gap: 16px;
 }
+
+
+
